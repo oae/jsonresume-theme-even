@@ -85,6 +85,31 @@ customElements.define('time-duration', TimeDuration)
       </ul>
     </header>
    
+      <section id="skills">
+        <h3>Skills</h3>
+        <div class="grid-list">
+          
+              <div>
+                <h4>Web Development</h4>
+                
+                  <ul class="tag-list">
+                    <li>HTML</li><li>CSS</li><li>Javascript</li>
+                  </ul>
+                
+              </div>
+            
+              <div>
+                <h4>Compression</h4>
+                
+                  <ul class="tag-list">
+                    <li>Mpeg</li><li>MP4</li><li>GIF</li>
+                  </ul>
+                
+              </div>
+            
+        </div>
+      </section>
+     
       <section id="work">
         <h3>Work</h3>
         <div class="stack">
@@ -120,29 +145,6 @@ customElements.define('time-duration', TimeDuration)
         </div>
       </section>
      
-      <section id="volunteer">
-        <h3>Volunteer</h3>
-        <div class="stack">
-          
-              <article>
-                <header>
-                  <h4><a href="http://coderdojo.example.com/">CoderDojo</a></h4>
-                  <div class="meta">
-                    <strong>Teacher</strong>
-                    <div><time datetime="2012-01-01">Jan 2012</time> – <time datetime="2013-01-01">Jan 2013</time> <time-duration dates="2012-01-01|2013-01-01"></time-duration></div>
-                  </div>
-                </header>
-                <p>Global movement of free coding clubs for young people.</p>
-                
-                  <ul>
-                    <li><p>Awarded 'Teacher of the Month'</p></li>
-                  </ul>
-                
-              </article>
-            
-        </div>
-      </section>
-     
       <section id="education">
         <h3>Education</h3>
         <div class="stack">
@@ -167,38 +169,6 @@ customElements.define('time-duration', TimeDuration)
       </section>
     
         
-      <section id="projects">
-        <h3>Projects</h3>
-        <div class="stack">
-          
-              <article>
-                <header>
-                  <h4><a href="http://missdirection.example.com">Miss Direction</a></h4>
-                  <div class="meta">
-                    <div>
-                      <strong>Team lead and Designer</strong>
-                      at <strong>Smoogle</strong>
-                    </div>
-                    <div><time datetime="2016-08-24">Aug 2016</time></div>
-                    <div>application</div>
-                  </div>
-                </header>
-                <p>A mapping engine that misguides you</p>
-                
-                  <ul>
-                    <li><p>Won award at AIHacks 2016</p></li><li><p>Built by all women team of newbie programmers</p></li><li><p>Using modern technologies such as GoogleMaps, Chrome Extension and Javascript</p></li>
-                  </ul>
-                
-                
-                  <ul class="tag-list">
-                    <li>GoogleMaps</li><li>Chrome Extension</li><li>Javascript</li>
-                  </ul>
-                
-              </article>
-            
-        </div>
-      </section>
-     
       <section id="awards">
         <h3>Awards</h3>
         <div class="stack">
@@ -211,6 +181,29 @@ customElements.define('time-duration', TimeDuration)
                   </div>
                 </header>
                 <p>There is no spoon.</p>
+              </article>
+            
+        </div>
+      </section>
+     
+      <section id="volunteer">
+        <h3>Volunteer</h3>
+        <div class="stack">
+          
+              <article>
+                <header>
+                  <h4><a href="http://coderdojo.example.com/">CoderDojo</a></h4>
+                  <div class="meta">
+                    <strong>Teacher</strong>
+                    <div><time datetime="2012-01-01">Jan 2012</time> – <time datetime="2013-01-01">Jan 2013</time> <time-duration dates="2012-01-01|2013-01-01"></time-duration></div>
+                  </div>
+                </header>
+                <p>Global movement of free coding clubs for young people.</p>
+                
+                  <ul>
+                    <li><p>Awarded 'Teacher of the Month'</p></li>
+                  </ul>
+                
               </article>
             
         </div>
@@ -235,39 +228,13 @@ customElements.define('time-duration', TimeDuration)
         </div>
       </section>
      
-      <section id="skills">
-        <h3>Skills</h3>
-        <div class="grid-list">
-          
-              <div>
-                <h4>Web Development</h4>
-                
-                  <ul class="tag-list">
-                    <li>HTML</li><li>CSS</li><li>Javascript</li>
-                  </ul>
-                
-              </div>
-            
-              <div>
-                <h4>Compression</h4>
-                
-                  <ul class="tag-list">
-                    <li>Mpeg</li><li>MP4</li><li>GIF</li>
-                  </ul>
-                
-              </div>
-            
-        </div>
-      </section>
-     
       <section id="languages">
         <h3>Languages</h3>
         <div class="grid-list">
           <div><h4>English</h4> Native speaker</div>
         </div>
       </section>
-    
-        
+     
       <section id="interests">
         <h3>Interests</h3>
         <div class="grid-list">
@@ -280,6 +247,39 @@ customElements.define('time-duration', TimeDuration)
                   </ul>
                 
               </div>
+            
+        </div>
+      </section>
+    
+        
+      <section id="projects">
+        <h3>Projects</h3>
+        <div class="stack">
+          
+              <article>
+                <header>
+                  <h4><a href="http://missdirection.example.com">Miss Direction</a></h4>
+                  <div class="meta">
+                    <div>
+                      <strong>Team lead and Designer</strong>
+                      <strong>Smoogle</strong>
+                    </div>
+                    <div><time datetime="2016-08-24">Aug 2016</time></div>
+                    <div>application</div>
+                  </div>
+                </header>
+                <p>A mapping engine that misguides you</p>
+                
+                  <ul>
+                    <li><p>Won award at AIHacks 2016</p></li><li><p>Built by all women team of newbie programmers</p></li><li><p>Using modern technologies such as GoogleMaps, Chrome Extension and Javascript</p></li>
+                  </ul>
+                
+                
+                  <ul class="tag-list">
+                    <li>GoogleMaps</li><li>Chrome Extension</li><li>Javascript</li>
+                  </ul>
+                
+              </article>
             
         </div>
       </section>

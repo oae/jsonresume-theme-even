@@ -39,7 +39,7 @@ export default function Projects(projects = []) {
                   <div class="meta">
                     <div>
                       ${roles.length > 0 && html`<strong>${formatRoles(roles)}</strong>`}
-                      ${entity && html`at <strong>${entity}</strong>`}
+                      ${entity && html`<strong>${entity}</strong>`}
                     </div>
                     ${startDate && html`<div>${DateTimeDuration(startDate, endDate)}</div>`}
                     ${type && html`<div>${type}</div>`}
